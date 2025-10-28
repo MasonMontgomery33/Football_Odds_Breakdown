@@ -1,0 +1,1 @@
+This file stors the unflitered minute to minute historical data

@@ -1,0 +1,1 @@
+This Folder stores active games.
