@@ -1,0 +1,31 @@
+# --- Python ---
+*.pyc
+__pycache__/
+
+# --- Virtual Environment ---
+venv/
+.env
+
+# --- Data and output folders ---
+active_games/
+filter/
+games/
+graphs/
+
+# --- Logs ---
+*.log
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- Secret keys ---
+private_key.pem
+.env
+.env.save
+
+test.py

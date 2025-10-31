@@ -4,7 +4,7 @@ import time
 import numpy as np
 from itertools import product
 from multiprocessing import Pool, cpu_count
-from advanced_simulate import run_simulation  # Make sure this uses EMA internally
+from one_buy import run_simulation  # Make sure this uses EMA internally
 
 # --- Parameter ranges: (start, stop, step) ---
 MIN_START_RANGE = (0.14, 0.15, 0.01)

@@ -7,12 +7,15 @@ import time
 import base64
 import requests
 from datetime import datetime
+from dotenv import load_dotenv
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.backends import default_backend
 
+load_dotenv(dotenv_path=".env.save")
+
 # --- Configuration ---
-ACCESS_KEY = "ACCESS_KEY"
+ACCESS_KEY = os.getenv("ACCESS_API_KEY")
 PRIVATE_KEY_PATH = "private_key.pem"
 WS_PROD_URL = "wss://api.elections.kalshi.com/trade-api/ws/v2"
 API_BASE_URL = "https://api.elections.kalshi.com"
